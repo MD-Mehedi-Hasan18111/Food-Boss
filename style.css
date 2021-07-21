@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.recipes{
+    background-image: url('images/recipes_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    transition: .9s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* Carousel Indicators Styles */
+.carousel-indicators [data-bs-target]{
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 5px;
+    margin: 0 10px;
+ }
+ .carousel-indicators .active {
+    /*background-color: black;*/
+    background-color: #198754;; 
+    border: 3px solid #198754;
+    border-radius: 5px;
+ }
